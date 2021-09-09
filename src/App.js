@@ -7,16 +7,10 @@ import FloorPlan from './components/FloorPlan';
 
 const App = () => {
 
-
   return (
   
     <div>
-
-          <FloorPlan />
-          
-    
-
-
+        <FloorPlan />
     </div>
   )
 }

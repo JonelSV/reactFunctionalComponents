@@ -6,7 +6,7 @@ const Oven = () => {
     return (
       <div className='Oven'>
   
-            <h2>Oven</h2>
+            <h3>Oven</h3>
   
       </div>
     )

@@ -6,7 +6,7 @@ const Sink = () => {
     return (
       <div className='Sink'>
   
-            <h2>Sink</h2>
+            <h3>Sink</h3>
   
       </div>
     )

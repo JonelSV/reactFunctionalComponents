@@ -74,3 +74,8 @@ div {
   width: 40%;
   height: 20%;
 }
+
+h2 {
+  text-align: center;  
+  padding: 100px;
+}
