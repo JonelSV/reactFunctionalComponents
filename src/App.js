@@ -7,8 +7,6 @@ import FloorPlan from './components/FloorPlan';
 
 const App = () => {
 
-  
-
 
   return (
   
