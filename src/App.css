@@ -7,6 +7,60 @@
 
 div {
   border: 1px solid grey;
-  margin: 5px;
-  padding: 5px;
+  /* margin: 5px;
+  padding: 5px; */
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Bedroom1 Bedroom1 Living-Room Living-Room Kitchen"
+    "Bedroom1 Bedroom1 Living-Room Living-Room Kitchen"
+    "FullBath FullBath Living-Room Living-Room Kitchen"
+    "Bedroom2 Bedroom2 HalfBath Bedroom3 Bedroom3"
+    "Bedroom2 Bedroom2 HalfBath Bedroom3 Bedroom3";
+}
+
+.Bedroom1 { 
+  grid-area: Bedroom1;
+  background-color: teal;
+}
+
+.Bedroom2 { 
+  grid-area: Bedroom2;
+  background-color: teal;
+}
+
+.FullBath { 
+  grid-area: FullBath;
+  background-color: olivedrab;
+}
+
+.HalfBath { 
+  grid-area: HalfBath;
+  background-color: olivedrab
+}
+
+.Bedroom3 { 
+  grid-area: Bedroom3;
+  background-color: teal;
+}
+
+.Living-Room { 
+  grid-area: Living-Room;
+  background-color: peachpuff;
+}
+
+.Kitchen { 
+  grid-area: Kitchen;
+  background-color: peru;
+}
+
+.FloorPlan {
+  z-index: 300;
+  background-color: grey;
 }
