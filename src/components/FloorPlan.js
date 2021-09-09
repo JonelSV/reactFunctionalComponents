@@ -19,9 +19,7 @@ const FloorPlan = () => {
           <Bath2 size2={'Half Bath'}/>
           <LivingRoom />
           <Kitchen />
-  
-  
-      </div>
+        </div>
     )
   }
   
