@@ -1,12 +1,12 @@
 import React from 'react'
 
 
-const Bath2 = () => {
+const Bath2 = (props) => {
 
     return (
       <div className='HalfBath'>
   
-            <h2>Bath2</h2>
+            <h2>{props.size2}</h2>
   
       </div>
     )

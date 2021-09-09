@@ -6,7 +6,7 @@ const BedRoom1 = (props) => {
     return (
       <div className='Bedroom1'>
   
-            <h2>Bedroom {props.bedNum1}</h2>
+            <h2>BedRoom {props.bedNum1}</h2>
   
       </div>
     )

@@ -8,9 +8,9 @@ const Kitchen = () => {
     return (
       <div className='Kitchen'>
   
-            <h2>Kitchen</h2>
             <Sink />
             <Oven />
+            <h2>Kitchen</h2>
   
       </div>
     )
