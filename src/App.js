@@ -1,4 +1,4 @@
-import React, { useState } from 'react' 
+import React from 'react' 
 import './App.css'
 import FloorPlan from './components/FloorPlan';
 import BedRoom1 from './components/BedRoom1'
@@ -13,7 +13,7 @@ import Kitchen from './components/Kitchen';
 
 const App = () => {
 
-  const [beNum, setBednum] = useState(0)
+  
 
 
   return (
